@@ -17,10 +17,7 @@ function App() {
         >
           Learn React
         </a>
-        <button onClick={() => {
-          throw new Error('this is a whole new error')
-        }}>Yeet</button>
-        {/* <button onClick={iDontExist}>I don't exist</button> */}
+        <div style={{ background: 'red' }}onClick={POTATOESARETHEBEST}>potatoes</div>
       </header>
     </div>
   );
