@@ -150,5 +150,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "@sentry/webpack-plugin": "^1.18.3"
   }
 }
