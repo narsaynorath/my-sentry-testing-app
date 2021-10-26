@@ -17,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+        <button onClick={iDontExist}>I don't exist</button>
       </header>
     </div>
   );
