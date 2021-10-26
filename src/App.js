@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 
-import BrokenButton from './BrokenButton';
+import BrokenButton2 from './BrokenButton2';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <BrokenButton />
+        <BrokenButton2 />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
