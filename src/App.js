@@ -18,7 +18,7 @@ function App() {
           Learn React
         </a>
         <button onClick={() => {
-          throw new Error('blah')
+          throw new Error('this is a whole new error')
         }}>Yeet</button>
         {/* <button onClick={iDontExist}>I don't exist</button> */}
       </header>

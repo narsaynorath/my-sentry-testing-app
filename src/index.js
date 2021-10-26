@@ -8,8 +8,6 @@ import App from './App';
 
 
 Sentry.init({
-  release: "296e8dcad2cd10122b8cb470c7cd28c6cb5b64c5",
-  dist: "1",
   dsn: "https://25ad4c6524574802a12b5d3e4758cc6b@o1052590.ingest.sentry.io/6036357",
   integrations: [new Integrations.BrowserTracing()],
   tracesSampleRate: 1.0,
