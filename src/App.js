@@ -17,7 +17,7 @@ function App() {
         >
           Learn React
         </a>
-        <div style={{ background: 'red' }}onClick={POTATOESARETHEBEST}>potatoes</div>
+        <div style={{ background: 'red' }} onClick={POTATOESARETHEBEST}>potatoes</div>
       </header>
     </div>
   );
