@@ -9,6 +9,7 @@ import App from './App';
 
 Sentry.init({
   dsn: "https://25ad4c6524574802a12b5d3e4758cc6b@o1052590.ingest.sentry.io/6036357",
+  release: process.env.RELEASE,
   integrations: [new Integrations.BrowserTracing()],
   tracesSampleRate: 1.0,
 })
