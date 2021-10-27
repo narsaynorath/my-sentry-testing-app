@@ -8,7 +8,7 @@ export default function () {
         Sentry.getCurrentHub().configureScope(scope => scope.setSpan(transaction));
 
         const span = transaction.startChild({
-            op: "waiting",
+            op: "task",
             description: "waiting randomly before finishing"
         })
 
