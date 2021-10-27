@@ -561,7 +561,7 @@ module.exports = function (webpackEnv) {
         release: process.env.SENTRY_RELEASE,
 
         // other SentryWebpackPlugin configuration
-        include: "../build",
+        include: ".",
         ignore: ["node_modules", "webpack.config.js"],
       }),
       // Generates an `index.html` file with the <script> injected.
