@@ -563,6 +563,10 @@ module.exports = function (webpackEnv) {
         // other SentryWebpackPlugin configuration
         include: ".",
         ignore: ["node_modules", "webpack.config.js"],
+        setCommits: {
+          repo: "narsaynorath/my-sentry-testing-app",
+          auto: true
+        }
       }),
       // Generates an `index.html` file with the <script> injected.
       new HtmlWebpackPlugin(
