@@ -3,11 +3,13 @@ import './App.css';
 
 import BrokenButton2 from './BrokenButton2';
 import WorkingButton from './WorkingButton';
+import CustomInstrumentationButton from './CustomInstrumentationButton';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <CustomInstrumentationButton />
         <WorkingButton />
         <BrokenButton2 />
         <img src={logo} className="App-logo" alt="logo" />
