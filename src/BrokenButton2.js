@@ -1,3 +1,3 @@
 export default function () {
-    return <button onClick={() => { throw new Error("Borked click") }}>Borked Click</button>
+    return <button onClick={() => { const empty = {}; empty.potato() }}>Borked Click</button>
 }
