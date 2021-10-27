@@ -2,11 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 
 import BrokenButton2 from './BrokenButton2';
+import WorkingButton from './WorkingButton';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <WorkingButton />
         <BrokenButton2 />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
