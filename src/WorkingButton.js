@@ -1,3 +1,3 @@
 export default function () {
-    return <button onClick={() => { alert("I am not throwing an error") }}>Alert Button</button>
+    return <button onClick={() => { alert("just kidding not working"); const blah = {}; blah.blah(); }}>Alert Button</button>
 }
